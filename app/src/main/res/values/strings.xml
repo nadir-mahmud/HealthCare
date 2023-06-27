@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="spinnerItems">
+        <item>Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Doctor_name">
+        <item>Dr. Md Azizul Karim </item>
+        <item>Dr. Shakhawat H Hridoy </item>
+        <item>Dr Rashedul Hasan </item>
+        <item>Dr. Tahera Begum</item>
+        <item>Dr. Dhiman Banik </item>
+        <item>Prof. Dr. M.A. Rouf</item>
+        <item>Prof. A.T.M. Khalilur Rahman </item>
+        <item>Prof. Dr. Farooque Ahmed </item>
+        <item>Prof. Fazila-Tun-Nesa Malik</item>
+    </string-array>
+    <string-array name="department">
+        <item>Medicine</item>
+        <item>Medical Oncology</item>
+        <item>Hepatobiliary and Pancreatic Surgery</item>
+        <item>Psychiatry</item>
+        <item>Nephrology</item>
+        <item>Urology , Andrology</item>
+        <item>Medicine</item>
+        <item>Gastroenterology
+</item>
+        <item>Dermatology , Venereology</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>Blood Group</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="degree">
+        <item>M.B.B.S, D.M.B.T, D-Bact</item>
+        <item>MBBS, DA, DIP (Cardiac Anaesthesia).</item>
+        <item>MBBS, MS (CTS)</item>
+        <item>MBBS, MD (Cardiology), FACC</item>
+        <item>MBBS, MS (CTS)</item>
+        <item>MBBS MMedSci(Clin Epid) PhD</item>
+        <item>MBBS, MS (Cardiovascular and Thoracic Surgery)</item>
+        <item>MBBS, MS (CV , TS)</item>
+        <item>MBBS, MS</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string-array name="account_type">
+        <item>Admin</item>
+        <item>Doctor</item>
+        <item>Patient</item>
+        <item>Nurse</item>
+    </string-array>
+    <string-array name="doctor_schedule">
+        <item>Saturday 10.00am to 1.00pm</item>
+        <item>Sunday 10.00am to 1.00pm</item>
+        <item>Monday 4.00am to 7.00pm</item>
+        <item>Tuesday 5.00am to 8.00pm</item>
+        <item>Wednesday 3.00am to 5.00pm</item>
+        <item>Thursday 10.00am to 1.00pm</item>
+    </string-array>
+</resources>

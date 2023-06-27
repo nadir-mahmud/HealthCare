@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Analyse Weight"
+        android:id="@+id/toolbar_line"
+        android:titleTextColor = "@color/white"
+        android:background="@color/mtrl_textinput_default_box_stroke_color"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="end"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/week_number1"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Week 1"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/weight_id1"
+                android:layout_width="match_parent"
+                android:hint="Enter weight"
+                android:textSize="14sp"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="end"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/week_number2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Week 2"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/weight_id2"
+                android:layout_width="match_parent"
+                android:hint="Enter weight"
+                android:textSize="14sp"
+                android:layout_height="wrap_content">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="end"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/week_number3"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Week 3"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/weight_id3"
+                android:layout_width="match_parent"
+                android:hint="Enter weight"
+                android:textSize="14sp"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+    </LinearLayout>   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="end"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/week_number4"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Week 4"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/weight_id4"
+            android:layout_width="match_parent"
+            android:hint="Enter weight"
+            android:textSize="14sp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/week_number5"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Week 5"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/weight_id5"
+            android:layout_width="match_parent"
+            android:hint="Enter weight"
+            android:textSize="14sp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/week_number6"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Week 6"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/weight_id6"
+            android:layout_width="match_parent"
+            android:hint="Enter weight"
+            android:textSize="14sp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/week_number7"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Week 7"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/weight_id7"
+                android:layout_width="wrap_content"
+                android:hint="Enter weight"
+                android:textSize="14sp"
+                android:layout_height="wrap_content">
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/addweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="Generate Graph"></Button>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linechart">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>

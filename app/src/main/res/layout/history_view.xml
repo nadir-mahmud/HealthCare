@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/doctor_name_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. A.F.M Kamal Uddin"
+                android:textSize="18dp"></TextView>
+
+
+            <TextView
+                android:id="@+id/doctor_degree_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="MBBS,MD,PCPS(Pead)"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:id="@+id/doctor_department_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Specialist"
+                android:textColor="#D06A6666"
+                android:textSize="12dp"></TextView>
+
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                app:dividerColor="@color/ap_gray"/>
+            <TextView
+                android:id="@+id/serial_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Serial: 1 "
+                android:textColor="#D00B0A0A"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/day_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Date:09:00am to 7:30 pm "
+                android:textColor="#D00B0A0A"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/patient_name_hsitory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Patient Name:Nadir Mahmud"
+                android:textColor="#D00B0A0A"
+                android:textSize="16dp" />
+            <Button
+                android:id="@+id/loginbtn"
+                style="@style/MyButton"
+                android:layout_width="150dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#039be5"
+                android:text="Booked"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:layout_height="170dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#0EAAF1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/ambulance_new"
+            android:layout_height="90dp"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Ambulance List "
+            android:textColor="@color/white"
+            android:textSize="29sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Md Chayon Chawdhury "
+
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Phone No:01869022340"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Code:ABC_04"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/ambulance1"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/call_icon"></ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:padding="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Nadir Mahmud"
+
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone No:01537-145043"
+                    android:textSize="15sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Code:C25_04"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ambulance2"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/call_icon"></ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="4dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Azizul Karim"
+
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Phone No:01629830910"
+
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Code:ABD_98"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ambulance3"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/call_icon"></ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:padding="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Md Faruk "
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Phone No:01568031201"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Code:ACC_04"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ambulance4"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/call_icon">
+
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

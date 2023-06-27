@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/doctor"
+            android:background="@color/img_bakground_color"
+            android:layout_width="180dp"
+            android:gravity="center"
+            android:layout_height="180dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/himage_id"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/doc1"
+                android:contentDescription="@string/app_name"
+
+                />
+
+
+            <TextView
+                android:id="@+id/hname_id"
+                android:layout_width="match_parent"
+                android:gravity="start"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_gravity="center_horizontal"
+
+                android:text="Dr. Imdadul Hoque"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/h_servicearea"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="Cardiologist"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="100sp"
+                    android:autoSizeStepGranularity="2sp" />
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="(4.8)"
+                    android:layout_marginStart="8dp"
+                    android:numStars="1"
+                    android:rating="4" />
+                <TextView
+                    android:id="@+id/rating_sample"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="(4.9)"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeMaxTextSize="100sp"
+                    android:autoSizeStepGranularity="2sp" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -4,7 +4,7 @@ This is a medical information management system mobile application. It was a pro
 ## Screenshots
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" width="48%">
+  <img style="padding: 2rem;" src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" width="48%">
   <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="Second Image" width="48%">
 </div>
 

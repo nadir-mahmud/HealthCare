@@ -4,7 +4,7 @@ This is a medical information management system mobile application. It was a pro
 ## Screenshots
 
 
-![start page](https://ibb.co/QpWkNtk)
+![start page](https://i.ibb.co/VJFxS5x/start-page.jpg)
 
 ![dashboard](https://ibb.co/ctgG2Nw)
 

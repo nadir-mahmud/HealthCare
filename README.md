@@ -9,7 +9,7 @@ This is a medical information management system mobile application. It was a pro
 </p>
 
 
-<div></div>
+<div style="height: 4%;"></div>
 
 
 

@@ -3,7 +3,12 @@ This is a medical information management system mobile application. It was a pro
 
 ## Screenshots
 
-<p align="center">
+<p align="center" style="marginb-bottom: 60px">
+  <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" style="width: 40%; margin-right: 2%;">
+  <img src="https://i.ibb.co/xGCpzMY/dashboard.jpg" alt="Second Image" style="width: 40%;">
+</p>
+
+<p align="center" style="marginb-bottom: 60px">
   <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" style="width: 40%; margin-right: 2%;">
   <img src="https://i.ibb.co/xGCpzMY/dashboard.jpg" alt="Second Image" style="width: 40%;">
 </p>

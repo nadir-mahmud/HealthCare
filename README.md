@@ -4,9 +4,9 @@ This is a medical information management system mobile application. It was a pro
 ## Screenshots
 
 
-![start page](https://i.ibb.co/VJFxS5x/start-page.jpg)
+![start page](https://i.ibb.co/VJFxS5x/start-page.jpg)![dashboard](https://i.ibb.co/xGCpzMY/dashboard.jpg)
 
-![dashboard](https://ibb.co/ctgG2Nw)
+
 
 ![patient dashboard](https://ibb.co/XD8stzc)
 ![doctor](https://ibb.co/0Cy1ykb)

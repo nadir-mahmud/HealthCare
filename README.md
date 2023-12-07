@@ -9,8 +9,8 @@ This is a medical information management system mobile application. It was a pro
 <br>
 
 <p align="center" style="margin-bottom: 60px">
-  <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" style="width: 40%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.ibb.co/xGCpzMY/dashboard.jpg" alt="Second Image" style="width: 40%;">
+  <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="start page" style="width: 40%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.ibb.co/xGCpzMY/dashboard.jpg" alt="dashboard" style="width: 40%;">
 </p>
 
 
@@ -23,8 +23,8 @@ This is a medical information management system mobile application. It was a pro
 
 
 <p align="center" style="margin-bottom: 60px">
-  <img src="https://i.ibb.co/VJFxS5x/start-page.jpg" alt="First Image" style="width: 40%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.ibb.co/xGCpzMY/dashboard.jpg" alt="Second Image" style="width: 40%;">
+  <img src="https://i.ibb.co/cwLFQN4/Whats-App-Image-2023-12-07-at-8-52-32-PM.jpg" alt="patient dashboard" style="width: 40%; margin-right: 2%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.ibb.co/v34f4bn/Whats-App-Image-2023-12-07-at-8-52-33-PM.jpg" alt="doctor" style="width: 40%;">
 </p>
 
 
